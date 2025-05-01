@@ -8,61 +8,60 @@
 
 /* Centered section heading */
 .projects-section h1 {
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
   margin-bottom: 3rem;
   font-weight: bold;
-  color: white; 
-  text-transform: uppercase;
+  color: white;
 }
 
 /* Each project item */
 .project-item {
-  margin-bottom: 2.5rem; 
+  margin-bottom: 2.5rem;
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Project image styling */
 .project-item img {
-  max-width: 80%; 
-  height: auto; 
-  border-radius: 10px; 
-  margin-bottom: 1rem; 
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }
 
 /* Project details text */
 .project-details {
-  max-width: 600px; 
-  text-align: center; 
+  max-width: 600px;
+  text-align: center;
 }
 
 .project-details p {
-  margin-bottom: 1.5rem; 
-  color: #ddd; 
+  margin-bottom: 1.5rem;
+  color: #ddd;
   font-size: 1rem;
 }
 
 /* Button styling for Project buttons */
 .proj-button {
-  display: inline-block; 
-  margin: 1.5rem auto; 
-  padding: 12px 20px; 
-  background-color: #070707; 
-  border: 2px solid #f44336; 
+  display: inline-block;
+  margin: 1.5rem auto;
+  padding: 12px 20px;
+  background-color: #070707;
+  border: 2px solid #f44336;
   border-radius: 5px;
-  color: white; 
-  font-size: 1rem; 
-  font-weight: bold; 
-  text-align: center; 
-  cursor: pointer; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover effect for buttons */
 .proj-button:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-  color: #fff; 
+  color: #fff;
 }
