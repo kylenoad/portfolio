@@ -6,7 +6,7 @@ const Projects = () => {
     <section id="projects" className="projects-section">
       <h1>My Projects</h1>
       <div className="project-item">
-        <img src="src/assets/frame_of_mind_2.png" alt="Project 1" />
+        <img src="/assets/frame_of_mind_2.png" alt="Project 1" />
         <div className="project-details">
           <p>
             Developed as part of a group project, Frame of Mind is a creative
@@ -27,7 +27,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-item">
-        <img src="src/assets/KN_News.png" alt="Project 1" />
+        <img src="/assets/KN_News.png" alt="Project 1" />
         <div className="project-details">
           <p>
             The project is a dynamic and responsive frontend that allows users
@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-item">
-        <img src="src/assets/KN_News_API.png" alt="Project 2" />
+        <img src="/assets/KN_News_API.png" alt="Project 2" />
         <div className="project-details">
           <p>
             The project is a RESTful API backend that enables users to interact

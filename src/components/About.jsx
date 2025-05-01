@@ -21,49 +21,49 @@ const About = () => {
         </p>
         <h2 style={{ marginTop: "90px" }}>Technologies which I work with</h2>
         <img
-          src="src/assets/javascript-original.svg"
+          src="/assets/javascript-original.svg"
           alt="Javascript logo"
           width="100"
           height="100"
           style={{ padding: "2px" }}
         />
         <img
-          src="src/assets/react-original.svg"
+          src="/assets/react-original.svg"
           alt="React logo"
           width="100"
           height="100"
           style={{ padding: "2px" }}
         />
         <img
-          src="src/assets/git.png"
+          src="/assets/git.png"
           alt="Git logo"
           width="100"
           height="100"
           style={{ padding: "2px" }}
         />
         <img
-          src="src/assets/react_native.png"
+          src="/assets/react_native.png"
           alt="React Native logo"
           width="100"
           height="100"
           style={{ padding: "2px" }}
         />
         <img
-          src="src/assets/nodejs.png"
+          src="/assets/nodejs.png"
           alt="Node.js logo"
           width="160"
           height="100"
           style={{ padding: "2px" }}
         />
         <img
-          src="src/assets/postgresql-original.svg"
+          src="/assets/postgresql-original.svg"
           alt="PSQL logo"
           width="100"
           height="100"
           style={{ padding: "2px" }}
         />
         <img
-          src="src/assets/jest-plain.svg"
+          src="/assets/jest-plain.svg"
           alt="Jest logo"
           width="100"
           height="100"
