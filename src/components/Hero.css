@@ -1,0 +1,21 @@
+#hero {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #070707;
+  width: 100%;
+  position: relative;
+  transform: translateY(-80px);
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
