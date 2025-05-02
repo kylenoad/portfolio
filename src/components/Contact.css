@@ -8,7 +8,7 @@
 }
 
 .contact-section h1 {
-  margin-bottom: 5px;
+  margin-bottom: 60px;
 }
 
 .contact-logos {
@@ -31,12 +31,12 @@
 }
 
 .cv-link a {
-  color: #ffffff; 
+  color: #ffffff;
   font-weight: bold;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 .cv-link a:hover {
-  color: #0288a5; 
+  color: #0288a5;
 }
