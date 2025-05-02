@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="about-content">
-        <h1>About</h1>
+        <h1 style={{marginTop: "22px"}}>About</h1>
         <p>
           I began self-teaching JavaScript before completing structured training
           at Northcoders, where I developed my knowledge of JavaScript, React,
@@ -19,7 +19,7 @@ const About = () => {
           history. I’ve written, produced, and directed for BBC, National
           Geographic, Channel 4, and Discovery
         </p>
-        <h2 style={{ marginTop: "90px", marginBottom: "40px" }}>Technologies which I work with</h2>
+        <h2 style={{ marginTop: "65px", marginBottom: "35px" }}>Technologies which I work with</h2>
         <img
           src="/assets/javascript-original.svg"
           alt="Javascript logo"
