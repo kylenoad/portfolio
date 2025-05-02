@@ -19,7 +19,7 @@ const About = () => {
           history. I’ve written, produced, and directed for BBC, National
           Geographic, Channel 4, and Discovery
         </p>
-        <h2 style={{ marginTop: "90px" }}>Technologies which I work with</h2>
+        <h2 style={{ marginTop: "90px", marginBottom: "40px" }}>Technologies which I work with</h2>
         <img
           src="/assets/javascript-original.svg"
           alt="Javascript logo"
