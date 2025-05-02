@@ -28,6 +28,13 @@ const Contact = () => {
           />
         </a>
       </div>
+      <p className="cv-link">
+        You can{" "}
+        <a href="/assets/Kyle_Noad_CV.pdf">
+          download my CV here
+        </a>
+        .
+      </p>
     </div>
   );
 };

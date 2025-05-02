@@ -24,3 +24,19 @@
   max-width: 100%;
   object-fit: contain;
 }
+
+.cv-link {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.cv-link a {
+  color: #00bcd4; 
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.cv-link a:hover {
+  color: #0288a5; 
+}

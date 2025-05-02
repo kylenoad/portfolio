@@ -8,7 +8,7 @@ const About = () => {
         <h1>About</h1>
         <p>
           I began self-teaching JavaScript before completing structured training
-          at Northcoders, where I developed my skills in JavaScript, React,
+          at Northcoders, where I developed my knowledge of JavaScript, React,
           Node.js, PostgreSQL, Jest and Express. Through hands-on projects, I've
           developed full-stack applications and gained experience working with
           APIs, databases, and front-end frameworks.
