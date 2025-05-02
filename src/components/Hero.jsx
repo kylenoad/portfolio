@@ -3,7 +3,7 @@ import "./Hero.css";
 import NavButton from "./NavButton";
 
 const Hero = () => {
-  const heroText = "Hello, I'm Kyle. \nI'm a full stack developer.";
+  const heroText = "Hello, I'm Kyle. \nI'm a junior developer.";
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const typingSpeed = 100;
