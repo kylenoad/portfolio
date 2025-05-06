@@ -32,17 +32,15 @@ const Contact = () => {
         You can{" "}
         <a
           href="/assets/Kyle_Noad_CV.pdf"
-          download
           onClick={() => {
-            window.gtag("event", "download_cv", {
-              event_category: "Downloads",
-              event_label: "CV Download",
+            gtag("event", "download", {
+              event_category: "CV",
+              event_label: "Kyle Noad CV",
             });
           }}
         >
           download my CV here
         </a>
-        .
       </p>
     </div>
   );
