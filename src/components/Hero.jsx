@@ -1,25 +1,25 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import NavButton from "./NavButton";
 
 const Hero = () => {
   const heroText = "Hello, I'm Kyle. \nI'm a junior developer.";
   const [text, setText] = useState("");
+  const [index, setIndex] = useState(0);
   const typingSpeed = 100;
-  const indexRef = useRef(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (indexRef.current < heroText.length) {
-        setText((prevText) => prevText + heroText.charAt(indexRef.current));
-        indexRef.current += 1;
+      if (index < heroText.length) {
+        setText((prevText) => prevText + heroText.charAt(index));
+        setIndex((prevIndex) => prevIndex + 1);
       } else {
         clearInterval(interval);
       }
     }, typingSpeed);
 
     return () => clearInterval(interval);
-  }, []); 
+  }, [index]);
 
   return (
     <section id="hero">
