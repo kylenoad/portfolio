@@ -65,3 +65,8 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
+
+.small-project-image {
+  max-width: 350px !important;
+  height: auto; 
+}

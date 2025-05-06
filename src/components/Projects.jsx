@@ -6,7 +6,35 @@ const Projects = () => {
     <section id="projects" className="projects-section">
       <h1>My Projects</h1>
       <div className="project-item">
-        <img src="/assets/frame_of_mind_2.png" alt="Project 1" />
+        <img
+          className="small-project-image"
+          src="/assets/f1_buddy.jpg"
+          alt="F1 Buddy app image"
+        />
+        <div className="project-details">
+          <p>
+            Formula 1 Buddy is a React Native app that delivers live data from
+            Formula 1 races, solving my frustration of limited on-screen
+            information. Built out of my love for Formula 1, the app provides
+            real-time race statistics to keep users informed throughout the
+            event. It is currently a work in progress, and I am actively adding
+            new features to enhance the experience.
+          </p>
+          <button
+            className="proj-button"
+            onClick={() =>
+              window.open(
+                "https://github.com/kylenoad/formula-one-RN",
+                "_blank"
+              )
+            }
+          >
+            View GitHub Repository
+          </button>
+        </div>
+      </div>
+      <div className="project-item">
+        <img src="/assets/frame_of_mind_2.png" alt="Frame of mind app image" />
         <div className="project-details">
           <p>
             Developed as part of a group project, Frame of Mind is a creative
@@ -27,7 +55,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-item">
-        <img src="/assets/KN_News.png" alt="Project 1" />
+        <img src="/assets/KN_News.png" alt="KN News app image" />
         <div className="project-details">
           <p>
             The project is a dynamic and responsive frontend that allows users
@@ -47,7 +75,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-item">
-        <img src="/assets/KN_News_API.png" alt="Project 2" />
+        <img src="/assets/KN_News_API.png" alt="KN news backend image" />
         <div className="project-details">
           <p>
             The project is a RESTful API backend that enables users to interact
