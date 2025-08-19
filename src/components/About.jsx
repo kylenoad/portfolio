@@ -27,6 +27,13 @@ const About = () => {
           height="100"
           style={{ padding: "2px" }}
         />
+          <img
+          src="/assets/python-logo-inkscape.svg"
+          alt="Python logo"
+          width="100"
+          height="100"
+          style={{ padding: "2px" }}
+        />
         <img
           src="/assets/react-original.svg"
           alt="React logo"
