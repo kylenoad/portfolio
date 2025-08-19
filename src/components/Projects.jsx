@@ -8,6 +8,29 @@ const Projects = () => {
       <div className="project-item">
         <img
           className="small-project-image"
+          src="/assets/rasperry_pi_plant_monitor.jpg"
+          alt="PlantVue raspberry pi setup"
+        />
+        <div className="project-details">
+          <p>
+            PlantVue is a Raspberry Pi powered smart plant monitoring application that tracks soil moisture levels in real time and displays the data on a live dashboard. The system helps plant owners keep their plants healthy by providing up-to-date moisture readings and visualisations.
+          </p>
+          <button
+            className="proj-button"
+            onClick={() =>
+              window.open(
+                "https://github.com/kylenoad/plantapp",
+                "_blank"
+              )
+            }
+          >
+            View GitHub Repository
+          </button>
+        </div>
+      </div>
+      <div className="project-item">
+        <img
+          className="small-project-image"
           src="/assets/f1_buddy.jpg"
           alt="F1 Buddy app image"
         />
