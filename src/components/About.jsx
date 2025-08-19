@@ -35,6 +35,7 @@ const About = () => {
           height="100"
           style={{ padding: "2px" }}
         />
+        <p>Python</p>
         <img
           src="/assets/react-original.svg"
           alt="React logo"
