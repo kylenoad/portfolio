@@ -28,7 +28,7 @@ const About = () => {
           style={{ padding: "2px" }}
         />
           <img
-          src="/assets/python-logo-inkscape.svg"
+          src="/assets/python-logo-only.svg"
           alt="Python logo"
           width="100"
           height="100"
