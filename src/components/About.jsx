@@ -27,6 +27,7 @@ const About = () => {
           height="100"
           style={{ padding: "2px" }}
         />
+        <p>JavaScript</p>
           <img
           src="/assets/python-logo-only.svg"
           alt="Python logo"
