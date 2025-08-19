@@ -31,7 +31,7 @@ const Contact = () => {
       <p className="cv-link">
         You can{" "}
         <a
-          href="/assets/Kyle_Noad_CV.pdf"
+          href="/assets/Kyle_Noad_CV - website.pdf"
           onClick={() => {
             gtag("event", "download", {
               event_category: "CV",
