@@ -13,7 +13,7 @@ const Projects = () => {
         />
         <div className="project-details">
           <p>
-            PlantVue is a Raspberry Pi powered smart plant monitoring application that tracks soil moisture levels in real time and displays the data on a live dashboard. The system helps plant owners keep their plants healthy by providing up-to-date moisture readings and visualisations.
+            PlantVue is a Raspberry Pi–powered smart plant monitoring system built as my CS50 final project. It tracks soil moisture levels using a capacitive sensor and MCP3008 ADC, with Python, Flask, and Supabase for data storage. A React and Chart.js dashboard displays real-time and historical data, helping users maintain optimal plant health.
           </p>
           <button
             className="proj-button"
