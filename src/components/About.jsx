@@ -27,6 +27,13 @@ const About = () => {
           height="100"
           style={{ padding: "2px" }}
         />
+         <img
+          src="/assets/ts-logo-128.svg"
+          alt="Typescript logo"
+          width="100"
+          height="100"
+          style={{ padding: "2px" }}
+        />
           <img
           src="/assets/python-logo-only.svg"
           alt="Python logo"
