@@ -28,7 +28,7 @@ const About = () => {
           style={{ padding: "2px" }}
         />
          <img
-          src="/assets/ts-logo-128"
+          src="/assets/Typescript_logo_2020.svg"
           alt="Typescript logo"
           width="100"
           height="100"
